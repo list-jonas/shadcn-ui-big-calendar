@@ -1,3 +1,5 @@
+Certainly! Here’s the updated README file with the images included.
+
 # Shadcn/UI - Big Calendar
 
 Welcome to the Shadcn/UI - Big Calendar Styles repository! This project is a Next.js application that showcases a React Big Calendar styled using Shadcn's CSS variables, allowing the calendar to dynamically adopt the selected theme.
@@ -15,6 +17,9 @@ Welcome to the Shadcn/UI - Big Calendar Styles repository! This project is a Nex
   - [Author](#author)
   - [Stats](#stats)
   - [Live Preview](#live-preview)
+  - [Screenshots](#screenshots)
+    - [Dark Theme - Month View](#dark-theme---month-view)
+    - [Light Theme - Week View](#light-theme---week-view)
 
 ## Introduction
 
@@ -33,8 +38,8 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/list-jonas/shadcn-ui-big-calendar-styles.git
-    cd shadcn-ui-big-calendar-styles
+    git clone https://github.com/list-jonas/shadcn-ui-big-calendar.git
+    cd shadcn-ui-big-calendar
     ```
 
 2. **Install dependencies:**
@@ -77,8 +82,8 @@ Contributions are welcome! If you have any suggestions, bug reports, or improvem
 
 2. **Clone the forked repository:**
     ```sh
-    git clone https://github.com/list-jonas/shadcn-ui-big-calendar-styles.git
-    cd shadcn-ui-big-calendar-styles
+    git clone https://github.com/list-jonas/shadcn-ui-big-calendar.git
+    cd shadcn-ui-big-calendar
     ```
 
 3. **Create a new branch:**
@@ -116,6 +121,14 @@ Created by Jonas. For more projects and information, visit [Jonas' Website](http
 ## Live Preview
 
 Check out the live preview of the site [here](https://shadcn-ui-big-calendar.vercel.app/).
+
+## Screenshots
+
+### Dark Theme - Month View
+![Dark Theme - Month View](/images/dark_month.png)
+
+### Light Theme - Week View
+![Light Theme - Week View](/images/light_week.png)
 
 ---
 
