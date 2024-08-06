@@ -1,10 +1,10 @@
-# Shadcn/UI - Big Calendar Styles
+# Shadcn/UI - Big Calendar
 
 Welcome to the Shadcn/UI - Big Calendar Styles repository! This project is a Next.js application that showcases a React Big Calendar styled using Shadcn's CSS variables, allowing the calendar to dynamically adopt the selected theme.
 
 ## Table of Contents
 
-- [Shadcn/UI - Big Calendar Styles](#shadcnui---big-calendar-styles)
+- [Shadcn/UI - Big Calendar](#shadcnui---big-calendar)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
@@ -107,11 +107,11 @@ Created by Jonas. For more projects and information, visit [Jonas' Website](http
 
 ## Stats
 
-![GitHub stars](https://img.shields.io/github/stars/list-jonas/shadcn-ui-big-calendar-styles)
-![GitHub forks](https://img.shields.io/github/forks/list-jonas/shadcn-ui-big-calendar-styles)
-![GitHub issues](https://img.shields.io/github/issues/list-jonas/shadcn-ui-big-calendar-styles)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/list-jonas/shadcn-ui-big-calendar-styles)
-![GitHub views](https://komarev.com/ghpvc/?username=list-jonas&repo=shadcn-ui-big-calendar-styles&color=blue)
+![GitHub stars](https://img.shields.io/github/stars/list-jonas/shadcn-ui-big-calendar)
+![GitHub forks](https://img.shields.io/github/forks/list-jonas/shadcn-ui-big-calendar)
+![GitHub issues](https://img.shields.io/github/issues/list-jonas/shadcn-ui-big-calendar)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/list-jonas/shadcn-ui-big-calendar)
+![GitHub views](https://komarev.com/ghpvc/?username=list-jonas&repo=shadcn-ui-big-calendar&color=blue)
 
 ## Live Preview
 
