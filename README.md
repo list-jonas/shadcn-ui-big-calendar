@@ -1,5 +1,3 @@
-Sure, here is an updated version of the README file that includes a section for repository stats.
-
 # Shadcn/UI - Big Calendar Styles
 
 Welcome to the Shadcn/UI - Big Calendar Styles repository! This project is a Next.js application that showcases a React Big Calendar styled using Shadcn's CSS variables, allowing the calendar to dynamically adopt the selected theme.
@@ -16,6 +14,7 @@ Welcome to the Shadcn/UI - Big Calendar Styles repository! This project is a Nex
   - [License](#license)
   - [Author](#author)
   - [Stats](#stats)
+  - [Live Preview](#live-preview)
 
 ## Introduction
 
@@ -34,7 +33,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/shadcn-ui-big-calendar-styles.git
+    git clone https://github.com/list-jonas/shadcn-ui-big-calendar-styles.git
     cd shadcn-ui-big-calendar-styles
     ```
 
@@ -78,7 +77,7 @@ Contributions are welcome! If you have any suggestions, bug reports, or improvem
 
 2. **Clone the forked repository:**
     ```sh
-    git clone https://github.com/yourusername/shadcn-ui-big-calendar-styles.git
+    git clone https://github.com/list-jonas/shadcn-ui-big-calendar-styles.git
     cd shadcn-ui-big-calendar-styles
     ```
 
@@ -114,8 +113,10 @@ Created by Jonas. For more projects and information, visit [Jonas' Website](http
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/list-jonas/shadcn-ui-big-calendar-styles)
 ![GitHub views](https://komarev.com/ghpvc/?username=list-jonas&repo=shadcn-ui-big-calendar-styles&color=blue)
 
+## Live Preview
+
+Check out the live preview of the site [here](https://shadcn-ui-big-calendar.vercel.app/).
+
 ---
 
 Thank you for checking out Shadcn/UI - Big Calendar Styles! We hope this project serves as a useful reference for integrating dynamic theming with React Big Calendar. If you have any questions or feedback, feel free to reach out. Happy coding!
-
-Replace `yourusername` with your actual GitHub username to make the badges display correctly.
