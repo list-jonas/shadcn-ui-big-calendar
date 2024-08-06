@@ -1,12 +1,12 @@
-import { cn } from "@/lib/utils";
-import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google";
-import "./globals.css";
-
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { ThemeSelect } from "@/components/theme/theme-select";
+import { cn } from "@/lib/utils";
 import { TooltipProvider } from "@radix-ui/react-tooltip";
+import { Analytics } from "@vercel/analytics/react";
+import type { Metadata } from "next";
+import { Inter as FontSans } from "next/font/google";
 import Link from "next/link";
+import "./globals.css";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -31,6 +31,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <Analytics />
         <TooltipProvider>
           <ThemeProvider
             attribute="class"
