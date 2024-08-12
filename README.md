@@ -130,4 +130,4 @@ Check out the live preview of the site [here](https://shadcn-ui-big-calendar.ver
 
 ---
 
-Thank you for checking out Shadcn/UI - Big Calendar Styles! We hope this project serves as a useful reference for integrating dynamic theming with React Big Calendar. If you have any questions or feedback, feel free to reach out. Happy coding!
+Thank you for checking out Shadcn/UI - Big Calendar Styles! I hope this project serves as a useful reference for integrating dynamic theming with React Big Calendar. If you have any questions or feedback, feel free to reach out. Happy coding!
