@@ -1,5 +1,3 @@
-Certainly! Here’s the updated README file with the images included.
-
 # Shadcn/UI - Big Calendar
 
 Welcome to the Shadcn/UI - Big Calendar Styles repository! This project is a Next.js application that showcases a React Big Calendar styled using Shadcn's CSS variables, allowing the calendar to dynamically adopt the selected theme.
