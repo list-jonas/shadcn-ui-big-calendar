@@ -106,7 +106,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Author
 
-Created by Jonas. For more projects and information, visit [Jonas' Website](https://jonas-list.vercel.app).
+Created by Jonas. For more projects and information, visit [My Website](https://www.listjonas.com/).
 
 ## Stats
 
