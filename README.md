@@ -134,4 +134,10 @@ Thank you for checking out Shadcn/UI - Big Calendar Styles! I hope this project 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=list-jonas/shadcn-ui-big-calendar&type=Date)](https://star-history.com/#list-jonas/shadcn-ui-big-calendar&Date)
+<a href="https://star-history.com/#list-jonas/shadcn-ui-big-calendar&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=list-jonas/shadcn-ui-big-calendar&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=list-jonas/shadcn-ui-big-calendar&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=list-jonas/shadcn-ui-big-calendar&type=Date" />
+ </picture>
+</a>
