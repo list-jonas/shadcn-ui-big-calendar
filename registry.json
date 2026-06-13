@@ -1,0 +1,56 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "shadcn-big-calendar",
+  "homepage": "https://github.com/list-jonas/shadcn-ui-big-calendar",
+  "items": [
+    {
+      "name": "big-calendar",
+      "type": "registry:component",
+      "title": "Big Calendar",
+      "description": "React Big Calendar themed with shadcn/ui CSS variables. Ships the calendar wrapper component and the stylesheet that drives light/dark dynamic theming.",
+      "author": "Jonas List (https://jonas-list.vercel.app)",
+      "dependencies": ["react-big-calendar", "moment"],
+      "devDependencies": ["@types/react-big-calendar"],
+      "files": [
+        {
+          "path": "src/components/shadcn-big-calendar/shadcn-big-calendar.ts",
+          "type": "registry:component",
+          "target": "@components/shadcn-big-calendar/shadcn-big-calendar.ts"
+        },
+        {
+          "path": "src/components/shadcn-big-calendar/shadcn-big-calendar.css",
+          "type": "registry:file",
+          "target": "@components/shadcn-big-calendar/shadcn-big-calendar.css"
+        }
+      ],
+      "docs": "Render with a localizer, e.g. `const localizer = momentLocalizer(moment)`. Tag events via `eventPropGetter` returning `{ className: 'event-variant-primary' }` (also `-secondary`, `-outline`). For drag-and-drop wrap with `withDragAndDrop` from `react-big-calendar/lib/addons/dragAndDrop`."
+    },
+    {
+      "name": "event-form",
+      "type": "registry:component",
+      "title": "Calendar Event Form",
+      "description": "Accessible create-event form (react-hook-form + zod) used by the Big Calendar demo dialog. Includes a native select control.",
+      "author": "Jonas List (https://jonas-list.vercel.app)",
+      "dependencies": [
+        "react-hook-form",
+        "zod",
+        "@hookform/resolvers",
+        "@hugeicons/react",
+        "@hugeicons/core-free-icons"
+      ],
+      "registryDependencies": ["button", "form", "input"],
+      "files": [
+        {
+          "path": "src/components/shadcn-big-calendar/event-form.tsx",
+          "type": "registry:component",
+          "target": "@components/shadcn-big-calendar/event-form.tsx"
+        },
+        {
+          "path": "src/components/ui/native-select.tsx",
+          "type": "registry:ui",
+          "target": "@ui/native-select.tsx"
+        }
+      ]
+    }
+  ]
+}

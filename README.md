@@ -1,5 +1,15 @@
 # Shadcn/UI - Big Calendar
 
+> **Install in one command** — themed React Big Calendar for any shadcn/ui project:
+
+```bash
+npx shadcn@latest add list-jonas/shadcn-ui-big-calendar/big-calendar
+```
+
+<sub>📋 Hover the block above and click the copy icon. Full options in [Install via shadcn](#-install-via-shadcn-one-command).</sub>
+
+---
+
 Welcome to the **Shadcn/UI - Big Calendar** repository! This project showcases a customized **React Big Calendar** styled using **Shadcn's CSS variables**, enabling dynamic theme adaptation. This is a purely **CSS-based solution**, ensuring smooth integration and consistent visual experiences across different themes.
 
 ---
@@ -16,6 +26,53 @@ Experience the live demo of the calendar in action:
 
 #### ☀️ Light Theme - Week View
 ![Light Theme - Week View](/images/light_week.png)
+
+---
+
+## ⚡ Install via shadcn (one command)
+
+This repo is a [shadcn GitHub registry](https://ui.shadcn.com/docs/registry/github). Drop the themed calendar into any shadcn/ui project with a single command:
+
+```bash
+npx shadcn@latest add list-jonas/shadcn-ui-big-calendar/big-calendar
+```
+
+This installs the calendar wrapper component and the theming stylesheet into `components/shadcn-big-calendar/`, and adds the `react-big-calendar` runtime dependency (plus its types).
+
+Optional — the demo create-event form (react-hook-form + zod, used in the dialog):
+
+```bash
+npx shadcn@latest add list-jonas/shadcn-ui-big-calendar/event-form
+```
+
+Pin to a branch, tag, or commit with `#ref`, and inspect items before installing:
+
+```bash
+npx shadcn@latest add list-jonas/shadcn-ui-big-calendar/big-calendar#main
+npx shadcn@latest view list-jonas/shadcn-ui-big-calendar/big-calendar
+```
+
+### Usage after install
+
+```tsx
+import moment from "moment";
+import { momentLocalizer } from "react-big-calendar";
+import ShadcnBigCalendar from "@/components/shadcn-big-calendar/shadcn-big-calendar";
+
+const localizer = momentLocalizer(moment);
+
+export function MyCalendar() {
+  return (
+    <ShadcnBigCalendar
+      localizer={localizer}
+      style={{ height: 700 }}
+      events={[]}
+      // color events: return { className: "event-variant-primary" } (also -secondary, -outline)
+      eventPropGetter={() => ({ className: "event-variant-primary" })}
+    />
+  );
+}
+```
 
 ---
 
