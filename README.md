@@ -199,12 +199,12 @@ For more projects and information, visit [My Website](https://jonas-list.vercel.
 ## 📈 Star History
 
 Check out the star history for this project:
-<a href="https://star-history.com/#list-jonas/shadcn-ui-big-calendar&Date">
-   <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=list-jonas/shadcn-ui-big-calendar&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=list-jonas/shadcn-ui-big-calendar&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=list-jonas/shadcn-ui-big-calendar&type=Date" />
-   </picture>
+<a href="https://www.star-history.com/?type=date&repos=list-jonas%2Fshadcn-ui-big-calendar">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=list-jonas/shadcn-ui-big-calendar&type=date&theme=dark&legend=top-left&sealed_token=l5dMIbKquysNX9k3MkkFXeYgn32O3QXmw2SpIYgIMFZTzntZh1EfKwWZJM9KsNDAQYFicWHVIfUAANemaVl9rnfeH8L0WmqN40RD2gXjG-oQhMb6XzZXtA" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=list-jonas/shadcn-ui-big-calendar&type=date&legend=top-left&sealed_token=l5dMIbKquysNX9k3MkkFXeYgn32O3QXmw2SpIYgIMFZTzntZh1EfKwWZJM9KsNDAQYFicWHVIfUAANemaVl9rnfeH8L0WmqN40RD2gXjG-oQhMb6XzZXtA" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=list-jonas/shadcn-ui-big-calendar&type=date&legend=top-left&sealed_token=l5dMIbKquysNX9k3MkkFXeYgn32O3QXmw2SpIYgIMFZTzntZh1EfKwWZJM9KsNDAQYFicWHVIfUAANemaVl9rnfeH8L0WmqN40RD2gXjG-oQhMb6XzZXtA" />
+ </picture>
 </a>
 
 ---
